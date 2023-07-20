@@ -1,10 +1,5 @@
-const test = ['test1', 'test2', 'test3']
+const arr = [1,2,3,4,5]
 
-const valueIterator = test.values()
+const length = arr.length
 
-let next = valueIterator.next()
-
-while(!next.done){
-    console.log(next.value)
-    next = valueIterator.next()
-}
+console.log(arr[length -1])
